@@ -10,9 +10,9 @@ ja:
         picture: 写真
         title: タイトル
 
-    messages: 
+    messages:
       link:
-        show_book: この本を表示      
+        show_book: この本を表示
         new_book: 本を追加
         back_books: 本の一覧に戻る
         edit_book: この本を編集
@@ -22,6 +22,9 @@ ja:
         new_book: 本の追加
         edit_book: 本の編集
 
+    error_messages: 本の保存に失敗しました 
 
-    error_messages:
-      prohibit_saving_book: 本の保存に失敗しました
+    success_messages:
+      create_book: 本が追加されました
+      update_book: 本が更新されました
+      destroy_book: 本が削除されました

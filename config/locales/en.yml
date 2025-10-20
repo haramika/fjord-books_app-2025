@@ -23,5 +23,9 @@ en:
         edit_book: Editing book
 
 
-    error_messages:
-      prohibit_saving_book: prohibited this book from being saved
+    error_messages: prohibited this book from being saved
+     
+    success_messages: 
+      create_book: Book was successfully created.
+      update_book: Book was successfully updated.
+      destroy_book: Book was successfully destroyed.
