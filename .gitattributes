@@ -4,6 +4,7 @@ vendor/* linguist-vendored
 config/credentials/*.yml.enc diff=rails_credentials
 config/credentials.yml.enc diff=rails_credentials
 
+config/puma.rb linguist-generated
 config/boot.rb linguist-generated
 config/environment.rb linguist-generated
 config/environments/*.rb linguist-generated
