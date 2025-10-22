@@ -10,7 +10,7 @@ en:
         picture: Picture
         title: Title
 
-    messages: 
+    comments:
       link:
         show_book: Show this book
         new_book: New book
@@ -19,13 +19,13 @@ en:
       button:
         destroy_book: Destroy this book
       title:
-        new_book: New book
-        edit_book: Editing book
+        new: New book
+        edit: Editing book
 
 
     error_messages: prohibited this book from being saved
      
     success_messages: 
-      create_book: Book was successfully created.
-      update_book: Book was successfully updated.
-      destroy_book: Book was successfully destroyed.
+      create_message: Book was successfully created.
+      update_message: Book was successfully updated.
+      destroy_message: Book was successfully destroyed.

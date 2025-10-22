@@ -1,12 +1,12 @@
 <% content_for :title, "editing book" %>
 
-<h1><%= t 'activerecord.messages.title.edit_book' %></h1>
+<h1><%= t(:edit, scope: 'activerecord.comments.title') %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-  <%= link_to t('activerecord.messages.link.show_book'), @book %> |
-  <%= link_to t('activerecord.messages.link.back_books'), books_path %>
+  <%= link_to t(:show_book, scope: 'activerecord.comments.link'), @book %> |
+  <%= link_to t(:back_books, scope: 'activerecord.comments.link'), books_path %>
 </nav>

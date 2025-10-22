@@ -2,19 +2,19 @@
 
 <% content_for :title, "Books" %>
 
-<h1><%= t 'activerecord.models.book' %></h1>
+<h1><%= t(:book, scope: 'activerecord.models') %></h1>
 
 <div id="books" class="index-items">
   <% @books.each do |book| %>
     <div class="index-item">
       <%= render book %>
       <p>
-        <%= link_to t('activerecord.messages.link.show_book'), book %>
+        <%= link_to t(:show_book, scope: 'activerecord.comments.link'), book %>
       </p>
     </div>
   <% end %>
 </div>
 
 <nav class="page-nav">
-  <%= link_to t('activerecord.messages.link.new_book'), new_book_path %>
+  <%= link_to t(:new_book, scope: 'activerecord.comments.link'), new_book_path %>
 </nav>
