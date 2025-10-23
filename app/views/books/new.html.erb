@@ -1,11 +1,11 @@
 <% content_for :title, "New book" %>
 
-<h1><%= t('activerecord.comments.title.new') %></h1>
+<h1><%= t '.new' %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-  <%= link_to t('activerecord.comments.link.back_books'), books_path %>
+  <%= link_to t('.back_books'), books_path %>
 </nav>

@@ -10,21 +10,25 @@ ja:
         picture: 写真
         title: タイトル
 
-    comments:
-      link:
-        show_book: この本を表示
-        new_book: 本を追加
-        back_books: 本の一覧に戻る
-        edit_book: この本を編集
-      button:
-        destroy_book: この本を削除
-      title:
-        new: 本の追加
-        edit: 本の編集
+  books:
+    index:
+      show_book: この本を表示
+      new_book: 本を追加
+    edit:
+      edit: 本の編集
+      show_book: この本を表示
+      back_books: 本の一覧に戻る
+    new:
+      new: 本の追加
+      back_books: 本の一覧に戻る
+    show:
+      edit_book: この本を編集
+      back_books: 本の一覧に戻る
+      destroy_book: この本を削除
 
-    error_messages: 本の保存に失敗しました 
+  error_messages: 本の保存に失敗しました 
 
-    success_messages:
-      create_message: 本が追加されました
-      update_message: 本が更新されました
-      destroy_message: 本が削除されました
+  success_messages:
+    create: 本が追加されました
+    update: 本が更新されました
+    destroy: 本が削除されました

@@ -39,22 +39,25 @@ en:
         picture: Picture
         title: Title
 
-    comments:
-      link:
-        show_book: Show this book
-        new_book: New book
-        back_books: Back to books
-        edit_book: Edit this book
-      button:
-        destroy_book: Destroy this book
-      title:
-        new: New book
-        edit: Editing book
+  books:
+    index:
+      show_book: Show this book
+      new_book: New book
+    edit:
+      edit: Editing book
+      show_book: Show this book
+      back_books: Back to books
+    new:
+      new: New book
+      back_books: Back to books
+    show:
+      edit_book: Edit this book
+      back_books: Back to books
+      destroy_book: Destroy this book
 
+  error_messages: prohibited this book from being saved
 
-    error_messages: prohibited this book from being saved
-
-    success_messages: 
-      create_message: Book was successfully created.
-      update_message: Book was successfully updated.
-      destroy_message: Book was successfully destroyed.
+  success_messages:
+    create: Book was successfully created.
+    update: Book was successfully updated.
+    destroy: Book was successfully destroyed.
