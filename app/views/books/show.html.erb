@@ -5,15 +5,8 @@
 </div>
 
 <nav class="page-nav">
-<<<<<<< Updated upstream
-  <%= link_to t(:edit_book, scope: 'activerecord.comments.link'), edit_book_path(@book) %> |
-  <%= link_to t(:back_books, scope: 'activerecord.comments.link'), books_path %>
-
-  <%= button_to t(:destroy_book, scope: 'activerecord.comments.button'), @book, method: :delete %>
-=======
   <%= link_to t('activerecord.comments.link.edit_book'), edit_book_path(@book) %> |
   <%= link_to t('activerecord.comments.link.back_books'), books_path %>
 
   <%= button_to t('activerecord.comments.button.destroy_book'), @book, method: :delete %>
->>>>>>> Stashed changes
 </nav>

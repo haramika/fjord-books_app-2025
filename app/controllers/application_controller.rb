@@ -1,10 +1,7 @@
 # frozen_string_literal: true
 
 class ApplicationController < ActionController::Base
-<<<<<<< Updated upstream
-=======
   # Only allow modern browsers supporting webp images, web push, badges, import maps, CSS nesting, and CSS :has.
->>>>>>> Stashed changes
   around_action :switch_locale
 
   def switch_locale(&action)

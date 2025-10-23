@@ -1,11 +1,7 @@
 <%= form_with(model: book) do |form| %>
   <% if book.errors.any? %>
     <div style="color: red">
-<<<<<<< Updated upstream
-      <h2><%= pluralize(book.errors.count, "error") %><%= t(:error_messages, scope: 'activerecord') %></h2>
-=======
       <h2><%= pluralize(book.errors.count, "error") %><%= t('activerecord.error_messages') %>:</h2>
->>>>>>> Stashed changes
 
       <ul>
         <% book.errors.each do |error| %>

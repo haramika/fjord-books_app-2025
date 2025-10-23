@@ -1,13 +1,8 @@
 Rails.application.routes.draw do
   resources :books
 
-  scope '/:locale' do
-    resources :books
-  end
-
-<<<<<<< Updated upstream
   get 'up' => 'rails/health#show', as: :rails_health_check
-=======
+
   scope '/:locale' do
     resources :books
   end
@@ -18,5 +13,4 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
->>>>>>> Stashed changes
 end

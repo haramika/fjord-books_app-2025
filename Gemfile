@@ -53,8 +53,6 @@ group :development, :test do
   gem 'rubocop-rails-omakase', require: false
 
   gem 'rubocop-fjord', require: false
-
-  gem 'i18n_generators'
 end
 
 group :development do

@@ -1,21 +1,13 @@
 <% content_for :title, "editing book" %>
 
-<<<<<<< Updated upstream
-<h1><%= t(:edit, scope: 'activerecord.comments.title') %></h1>
-=======
 <h1><%= t('activerecord.comments.title.edit') %></h1>
->>>>>>> Stashed changes
+
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-<<<<<<< Updated upstream
-  <%= link_to t(:show_book, scope: 'activerecord.comments.link'), @book %> |
-  <%= link_to t(:back_books, scope: 'activerecord.comments.link'), books_path %>
-=======
   <%= link_to t('activerecord.comments.link.show_book') %> |
   <%= link_to t('activerecord.comments.link.back_books'), books_path %>
->>>>>>> Stashed changes
 </nav>
