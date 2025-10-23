@@ -55,7 +55,7 @@ en:
       back_books: Back to books
       destroy_book: Destroy this book
 
-  error_messages: prohibited this book from being saved
+  error_message: prohibited this book from being saved
 
   success_messages:
     create: Book was successfully created.

@@ -26,7 +26,7 @@ ja:
       back_books: 本の一覧に戻る
       destroy_book: この本を削除
 
-  error_messages: 本の保存に失敗しました 
+  error_message: 本の保存に失敗しました 
 
   success_messages:
     create: 本が追加されました
