@@ -1,13 +1,12 @@
-<% title = t('views.common.title_edit', name: Book.model_name.human.downcase) %>
-<% content_for :title, title %>
+<% content_for :title, "Editing book" %>
 
-<h1><%= title %></h1>
+<h1><%= t(:edit, scope: 'activerecord.comments.title') %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <nav class="page-nav">
-  <%= link_to t('views.common.show', name: Book.model_name.human.downcase), @book %> |
-  <%= link_to t('views.common.back', name: i18n_pluralize(Book.model_name.human.downcase)), books_path %>
+  <%= link_to t(:show_book, scope: 'activerecord.comments.link'), @book %> |
+  <%= link_to t(:back_books, scope: 'activerecord.comments.link'), books_path %>
 </nav>

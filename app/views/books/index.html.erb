@@ -3,19 +3,23 @@
 <% title = t('views.common.title_index', name: i18n_pluralize(Book.model_name.human)) %>
 <% content_for :title, title %>
 
-<h1><%= title %></h1>
+<h1><%= t(:book, scope: 'activerecord.models') %></h1>
 
 <div id="books" class="index-items">
   <% @books.each do |book| %>
     <div class="index-item">
       <%= render book %>
       <p>
-        <%= link_to t('views.common.show', name: Book.model_name.human.downcase), book %>
+        <%= link_to t(:show_book, scope: 'activerecord.comments.link'), book %>
       </p>
     </div>
   <% end %>
 </div>
 
+<p>
+  <%= paginate @books %>
+</p>
+
 <nav class="page-nav">
-  <%= link_to t('views.common.new', name: Book.model_name.human.downcase), new_book_path %>
+  <%= link_to t(:new_book, scope: 'activerecord.comments.link'), new_book_path %>
 </nav>
