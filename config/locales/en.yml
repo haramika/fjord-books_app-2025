@@ -24,7 +24,11 @@ en:
 
 
     error_messages: prohibited this book from being saved
+<<<<<<< Updated upstream
      
+=======
+
+>>>>>>> Stashed changes
     success_messages: 
       create_message: Book was successfully created.
       update_message: Book was successfully updated.
