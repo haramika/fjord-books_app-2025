@@ -28,3 +28,11 @@ ja:
       create_message: 本が追加されました
       update_message: 本が更新されました
       destroy_message: 本が削除されました
+  
+  views:
+    pagination:
+      first: "&laquo; 最初"
+      last: "最後 &raquo;"
+      previous: "&lsaquo; 前"
+      next: "次 &rsaquo;"
+      truncate: "..."
