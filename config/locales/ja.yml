@@ -10,26 +10,24 @@ ja:
         picture: 写真
         title: タイトル
 
-    comments:
-      link:
-        show_book: この本を表示
-        new_book: 本を追加
-        back_books: 本の一覧に戻る
-        edit_book: この本を編集
-      button:
-        destroy_book: この本を削除
-      title:
-        new: 本の追加
-        edit: 本の編集
-
-    error_messages: 本の保存に失敗しました 
-
-    success_messages:
-      create_message: 本が追加されました
-      update_message: 本が更新されました
-      destroy_message: 本が削除されました
-  
   views:
+    common:
+      show: "この%{name}を表示"
+      edit: "この%{name}を編集"
+      destroy: "この%{name}を削除"
+      new: "%{name}の新規作成"
+      back: "%{name}の一覧に戻る"
+      delete_confirm: よろしいですか？
+      title_index: "%{name}の一覧"
+      title_new: "%{name}の新規作成"
+      title_edit: "%{name}の編集"
+      error: エラー
+      validation_error: "%{errors}があるため、この%{name}は保存できませんでした"
+  controllers:
+    common:
+      notice_create: "%{name}が作成されました。"
+      notice_update: "%{name}が更新されました。"
+      notice_destroy: "%{name}が削除されました。"
     pagination:
       first: "&laquo; 最初"
       last: "最後 &raquo;"
